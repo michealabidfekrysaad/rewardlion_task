@@ -1,0 +1,40 @@
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 40px;
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding-left: 10px; 
+    text-align: center; 
+
+} 
+.bk-ground-color{
+    background-color:rgb(128,128,128);
+
+}
+
+.rounded-border{
+    border:1px solid rgb(0,0,0);border-radius: 25px;
+}
+.span-col{
+    color:rgb(139,69,19);
+}
+.img-overflow{
+    overflow: hidden;
+}
+.hover-img{
+    transition: all .9s ease-in-out;
+}
+.hover-img:hover{
+    transform: scale(1.5);
+}
