@@ -13,10 +13,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-    <!-- Google Fonts -->
-    {{-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('fonts/material-icon/css/material-design-iconic-font.min.css')}}">
-     --}}
+   
 
     <!-- Fonts -->
     <link type="text/css" rel="stylesheet" href="{{ mix('css/app.css') }}">
