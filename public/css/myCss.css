@@ -38,3 +38,40 @@
 .hover-img:hover{
     transform: scale(1.5);
 }
+/* admin panel */
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  small {
+    font-size: 80%;
+  }
+  small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+.bg-teal, .bg-teal>a {
+    color: #fff!important;
+}
+.bg-teal {
+    background-color: #20c997!important;
+}
+.img-circle {
+    border-radius: 50%;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-size {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }

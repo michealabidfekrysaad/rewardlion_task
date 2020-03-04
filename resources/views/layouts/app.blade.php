@@ -45,6 +45,9 @@
                         <li>
                             <a class="nav-link" href="/">Add new</a>
                         </li>
+                        <li>
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

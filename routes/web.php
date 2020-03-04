@@ -21,7 +21,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //first route by me
 
-
+Route::get("/about",function(){
+    return view('Recipes.about');
+});
 Route::group(['middleware'=>['auth']],function (){
 Route::get('/','ReportController@index');
 Route::post('/uploadRecipe','ReportController@store');
