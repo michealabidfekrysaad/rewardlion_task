@@ -12,6 +12,7 @@ class ReportController extends Controller
      */
     public function index()
     {
+
         return view('Recipes.home');
     }
 
@@ -87,7 +88,7 @@ class ReportController extends Controller
         $report = reports::find($id);
 
         $this->validate($request, [
-            'Name' => 'unique:reports,name,'.$report->id.',id',
+            'Name' => 'unique:reports,name,' . $report->id . ',id',
             'image'  => 'image|mimes:jpg,png,jpeg|max:2048',
             'Description' => 'min:10|max:90'
         ]);
@@ -102,8 +103,6 @@ class ReportController extends Controller
         $report->description = request()->Description;
         $report->save();
         return redirect()->route('Reports.index');
-
-
     }
 
     /**
